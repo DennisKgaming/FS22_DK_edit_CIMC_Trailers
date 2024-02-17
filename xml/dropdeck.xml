@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<vehicle type="PalletAutoLoaderTrailer">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+    <storeData>
+        <name>
+            <en>CIMC Dropdeck trailer DK edit</en>
+            <de>CIMC Dropdeck trailer DK edit</de>
+        </name>
+        <functions>
+        </functions>
+        <specs>
+            <combination>Truck, Dolly</combination>
+        </specs>
+        <image>icons/store_dropdeck.dds</image>
+        <price>48000</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>CIMC</brand>
+        <category>DennisKtools</category>
+        <vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>0</indexBufferMemoryUsage>
+        <textureMemoryUsage>0</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+    <base>
+        <typeDesc>$l10n_typeDesc_baleTrailer</typeDesc>
+        <filename>i3d/dropdeck.i3d</filename>
+        <size width="4.5" length="13"/>
+        <components>
+            <component centerOfMass="0 0.5 -2" solverIterationCount="10" mass="5370" />
+        </components>
+        <schemaOverlay attacherJointPosition="0 0" name="IMPLEMENT" />
+        <mapHotspot type="TRAILER" />
+    </base>
+    <wheels>
+        <wheelConfigurations>
+            <wheelConfiguration name="$l10n_configuration_valueDefault" price="0">
+                <wheels>
+                    <wheel filename="wheels/Alcoa/Alcoa.xml" configId="Trailer" isLeft="true" hasTireTracks="false">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|0"  forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
+                        <additionalWheel filename="wheels/Alcoa/Alcoa.xml" isLeft="true"  offset="0.1"/>
+                    </wheel>
+                    <wheel filename="wheels/Alcoa/Alcoa.xml" configId="Trailer" isLeft="false" hasTireTracks="false">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|1" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
+                        <additionalWheel filename="wheels/Alcoa/Alcoa.xml" isLeft="false"  offset="0.1"/>
+                    </wheel>
+                    <wheel filename="wheels/Alcoa/Alcoa.xml" configId="Trailer" isLeft="true" hasTireTracks="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|2"  forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
+                        <additionalWheel filename="wheels/Alcoa/Alcoa.xml" isLeft="true"  offset="0.1"/>
+                    </wheel>
+                    <wheel filename="wheels/Alcoa/Alcoa.xml" configId="Trailer" isLeft="false" hasTireTracks="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|3" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
+                        <additionalWheel filename="wheels/Alcoa/Alcoa.xml" isLeft="false"  offset="0.1"/>
+                    </wheel>
+                    <wheel filename="wheels/Alcoa/Alcoa.xml" configId="Trailer" isLeft="true" hasTireTracks="false">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|4"  forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
+                        <additionalWheel filename="wheels/Alcoa/Alcoa.xml" isLeft="true"  offset="0.1"/>
+                    </wheel>
+                    <wheel filename="wheels/Alcoa/Alcoa.xml" configId="Trailer" isLeft="false" hasTireTracks="false">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|5" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
+                        <additionalWheel filename="wheels/Alcoa/Alcoa.xml" isLeft="false"  offset="0.1"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+            <wheelConfiguration name="Spiders" price="0" >
+                <wheels>
+                    <wheel filename="wheels/tires/Lizard/315_80R22_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.4" repr="0>0|6|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
+                        <additionalWheel filename="wheels/tires/Lizard/315_80R22_5.xml" isLeft="false" offset="0.01"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/Lizard/315_80R22_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.4" repr="0>0|7|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
+                        <additionalWheel filename="wheels/tires/Lizard/315_80R22_5.xml" isLeft="true" offset="0.01"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/Lizard/315_80R22_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.4" repr="0>0|8|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
+                        <additionalWheel filename="wheels/tires/Lizard/315_80R22_5.xml" isLeft="false" offset="0.01"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/Lizard/315_80R22_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.4" repr="0>0|9|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
+                        <additionalWheel filename="wheels/tires/Lizard/315_80R22_5.xml" isLeft="true" offset="0.01"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/Lizard/315_80R22_5.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.4" repr="0>0|10|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
+                        <additionalWheel filename="wheels/tires/Lizard/315_80R22_5.xml" isLeft="false" offset="0.01"/>
+                    </wheel>
+                    <wheel filename="wheels/tires/Lizard/315_80R22_5.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.4" repr="0>0|11|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
+                        <additionalWheel filename="wheels/tires/Lizard/315_80R22_5.xml" isLeft="true" offset="0.01"/>
+                    </wheel>
+                </wheels>
+                <objectChange node="0>0|6|0" visibilityActive="true" visibilityInactive="false"/>
+                <objectChange node="0>0|7|0" visibilityActive="true" visibilityInactive="false"/>
+                <objectChange node="0>0|8|0" visibilityActive="true" visibilityInactive="false"/>
+                <objectChange node="0>0|9|0" visibilityActive="true" visibilityInactive="false"/>
+                <objectChange node="0>0|10|0" visibilityActive="true" visibilityInactive="false"/>
+                <objectChange node="0>0|11|0" visibilityActive="true" visibilityInactive="false"/>
+            </wheelConfiguration>
+        </wheelConfigurations>
+    </wheels>
+    <rimColorConfigurations useDefaultColors="false" price="0">
+        <rimColorConfiguration name="STAINLESS STEEL" material="8" color="1 1 1 8"/>
+    </rimColorConfigurations>
+      
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="0>4|0" jointType="semitrailer"/>
+        </inputAttacherJoints>
+        <support animationName="moveSupport"/>
+        <brakeForce force="1" />
+    </attachable>
+	
+    <attacherJoints comboDuration="2">
+        <attacherJointConfigurations>
+            <attacherJointConfiguration>
+                <attacherJoint node="0>4|1" jointType="trailer" lowerRotLimit="10 50 50" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1" canTurnOnImplement="false">
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <attachSound template="TRUCK_ATTACH_01" linkNode="0>"/>
+                </attacherJoint>
+                <attacherJoint node="0>4|1" jointType="trailerLow" lowerRotLimit="10 50 50" upperRotRotationOffset="0" allowsJointLimitMovement="false" comboTime="1" canTurnOnImplement="false">
+                    <schema position="1 0" rotation="0" invertX="false"/>
+                    <attachSound template="TRUCK_ATTACH_01" linkNode="0>"/>
+                </attacherJoint>
+            </attacherJointConfiguration>
+        </attacherJointConfigurations>
+    </attacherJoints>
+	
+    <connectionHoses>
+        <target attacherJointIndices="1" type="airDoubleRed" node="0>6|2|4" socket="air_red"/>
+        <target attacherJointIndices="1" type="airDoubleYellow" node="0>6|2|3" socket="air_yellow"/>
+        <target attacherJointIndices="1" type="electric" node="0>6|2|0" socket="electric"/>
+        <target attacherJointIndices="1" type="hydraulicIn" node="0>6|2|1" socket="hydraulic01"/>
+        <target attacherJointIndices="1" type="hydraulicOut" node="0>6|2|2" socket="hydraulic02"/>
+		
+        <hose inputAttacherJointIndices="1" type="hydraulicIn" node="0>6|0|0|0" length="1" diameter="0.02" straighteningFactor="1.5" isTwoPointHose="true" adapterType="nil">
+            <objectChange node="0>6|1|0|1" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="0>6|1|0|2" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>6|0|0" visibilityActive="true" visibilityInactive="false"/>
+        </hose>
+        <hose inputAttacherJointIndices="1" type="hydraulicOut" node="0>6|0|4|0" length="1" diameter="0.02" straighteningFactor="1.5" isTwoPointHose="true" adapterType="nil">
+            <objectChange node="0>6|1|2|1" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="0>6|1|2|2" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>6|0|4" visibilityActive="true" visibilityInactive="false"/>
+        </hose>
+        <hose inputAttacherJointIndices="1" type="electric" node="0>6|0|1|0" length="1" diameter="0.008" minDeltaY="-0.246" adapterType="nil">
+            <objectChange node="0>6|1|0|1" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="0>6|1|0|2" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>6|1|0|1" visibilityActive="true" visibilityInactive="false"/>
+        </hose>
+        <hose inputAttacherJointIndices="1" type="airDoubleRed" node="0>6|0|3|0" length="1" diameter="0.02" straighteningFactor="1.5" adapterType="nil" color="0.8300 0.0190 0.0330">
+            <objectChange node="0>6|1|4|1" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="0>6|1|4|2" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>6|1|0|3" visibilityActive="true" visibilityInactive="false"/>
+        </hose>
+        <hose inputAttacherJointIndices="1" type="airDoubleYellow" node="0>6|0|2|0" length="1" diameter="0.02" straighteningFactor="1.5" adapterType="nil" color="1 0.6047 0">
+            <objectChange node="0>6|1|3|1" visibilityActive="false" visibilityInactive="true"/>
+            <objectChange node="0>6|1|3|2" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>6|1|0|2" visibilityActive="true" visibilityInactive="false"/>
+        </hose>
+    </connectionHoses>
+
+    <lights>
+        <states>
+            <state lightTypes="0"/>
+            <state lightTypes="0 1"/>
+            <state lightTypes="0 1 2"/>
+        </states>
+        <realLights>
+			<high>
+				<light node="0>2|2|0" 			lightTypes="0"/>
+				<light node="0>2|2|1" 			lightTypes="0"/>
+				<light node="0>2|2|6" 			lightTypes="0"/>
+				<light node="0>2|2|7" 			lightTypes="0"/>
+				<light node="0>2|2|8" 			lightTypes="0"/>
+				<brakeLight node="0>2|2|2"/>
+				<brakeLight node="0>2|2|3"/>
+				<turnLightLeft node="0>2|2|4"/>
+				<turnLightRight node="0>2|2|5"/>
+				<reverseLight node="0>2|2|9"/>
+			</high>
+		</realLights>
+        <reverseLights>
+			<reverseLight shaderNode="0>2|0|7" intensity="8"/>
+			<reverseLight shaderNode="0>2|0|8" intensity="8"/>
+		</reverseLights>
+        <defaultLights>
+            <defaultLight shaderNode="0>2|1|0" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|1" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|2" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|3" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|4" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|5" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|6" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|7" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|8" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|9" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|10" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|11" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|12" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|13" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|14" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|15" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|16" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|17" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|18" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|19" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|20" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|21" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|22" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|23" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|24" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|25" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|26" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|27" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|28" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|1|29" lightTypes="0" intensity="4.5"/>
+			
+            <defaultLight shaderNode="0>2|0|4" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|0|5" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|0|6" lightTypes="0" intensity="4.5"/>
+			
+            <defaultLight shaderNode="0>2|3|0" lightTypes="0" intensity="4.5"/>
+            <defaultLight shaderNode="0>2|3|1" lightTypes="0" intensity="4.5"/>
+			
+            <defaultLight shaderNode="0>2|0|0|3" lightTypes="0"/>
+            <defaultLight shaderNode="0>2|0|1|3" lightTypes="0"/>
+            <defaultLight shaderNode="0>2|0|2|3" lightTypes="0"/>
+            <defaultLight shaderNode="0>2|0|3|3" lightTypes="0"/>
+        </defaultLights>
+        <turnLights>
+            <turnLightLeft shaderNode="0>2|0|0|4"/>
+            <turnLightLeft shaderNode="0>2|0|1|4"/>
+            <turnLightRight shaderNode="0>2|0|2|4"/>
+            <turnLightRight shaderNode="0>2|0|3|4"/>
+        </turnLights>
+        <brakeLights>
+            <brakeLight shaderNode="0>2|0|0|2"/>
+            <brakeLight shaderNode="0>2|0|1|2"/>
+            <brakeLight shaderNode="0>2|0|2|2"/>
+            <brakeLight shaderNode="0>2|0|3|2"/>
+        </brakeLights>
+    </lights>
+	 
+		
+    <animations>
+        <animation name="moveSupport">
+            <part node="0>1|0" startTime="0" endTime="0.5" startTrans="0 0.7 0" endTrans="0 0.25 0"/>
+            <part node="0>1|5" startTime="0" endTime="0.1" startRot="0 0 90" endRot="0 0 0"/>
+            <part node="0>1|5|0" startTime="0.1" endTime="0.5" startRot="0 0 0" endRot="720 0 0"/>
+            <part node="0>1|5" startTime="0.5" endTime="0.6" startRot="0 0 0" endRot="0 0 90"/>
+        </animation>
+		<animation name="axisMovement">
+            <part node="0>3|2|13" startTime="12" endTime="12.01" startScale="0 0 0" endScale="1 1 1"/>
+			
+            <part node="0>3|2|0" startTime="0" endTime="0.5" startTrans="0.104 0.441 0.23" endTrans="3.0 0.441 0.23"/>
+            <part node="0>3|2|0" startTime="0.5" endTime="1" startTrans="3.0 0.441 0.23" endTrans="1.437 2.765 0.23"/>
+            <part node="0>3|2|0" startTime="0.5" endTime="1" startRot="0 0 -90" endRot="0 0 0"/>
+            <part node="0>3|2|0" startTime="1" endTime="1.5" startTrans="1.437 2.765 0.23" endTrans="1.437 2.765 4.716"/>
+            <part node="0>3|2|0" startTime="1.5" endTime="1.7" startTrans="1.437 2.765 4.716" endTrans="1.295 2.765 4.716"/>
+            <part node="0>3|2|0" startTime="1.7" endTime="2" startTrans="1.295 2.765 4.716" endTrans="1.295 2.542 4.716"/>
+			
+            <part node="0>3|2|1" startTime="2" endTime="2.5" startTrans="0.208 0.412 0.23" endTrans="3.0 0.412 0.23"/>
+            <part node="0>3|2|1" startTime="2.5" endTime="3" startTrans="3.0 0.412 0.23" endTrans="1.437 2.765 0.23"/>
+            <part node="0>3|2|1" startTime="2.5" endTime="3" startRot="0 0 -90" endRot="0 0 0"/>
+            <part node="0>3|2|1" startTime="3" endTime="3.5" startTrans="1.437 2.765 0.23" endTrans="1.437 2.765 2.729"/>
+            <part node="0>3|2|1" startTime="3.5" endTime="3.7" startTrans="1.437 2.765 2.729" endTrans="1.295 2.765 2.729"/>
+            <part node="0>3|2|1" startTime="3.7" endTime="4" startTrans="1.295 2.765 2.729" endTrans="1.295 2.646 2.729"/>
+			
+            <part node="0>3|2|2" startTime="4" endTime="4.5" startTrans="0.208 0.383 0.23" endTrans="3.0 0.383 0.23"/>
+            <part node="0>3|2|2" startTime="4.5" endTime="5" startTrans="3.0 0.383 0.23" endTrans="1.437 2.597 0.23"/>
+            <part node="0>3|2|2" startTime="4.5" endTime="5" startRot="0 0 -90" endRot="0 0 0"/>
+            <part node="0>3|2|2" startTime="5" endTime="5.5" startTrans="1.437 2.597 0.23" endTrans="1.437 2.597 1.358"/>
+            <part node="0>3|2|2" startTime="5.5" endTime="5.7" startTrans="1.437 2.597 1.358" endTrans="1.295 2.597 1.358"/>
+            <part node="0>3|2|2" startTime="5.7" endTime="6" startTrans="1.295 2.597 1.358" endTrans="1.295 2.482 1.358"/>
+			
+            <part node="0>3|2|3" startTime="6" endTime="6.5" startTrans="0.208 0.354 0.23" endTrans="3.0 0.354 0.23"/>
+            <part node="0>3|2|3" startTime="6.5" endTime="7" startTrans="3.0 0.354 0.23" endTrans="1.437 2.597 0.23"/>
+            <part node="0>3|2|3" startTime="6.5" endTime="7" startRot="0 0 -90" endRot="0 0 0"/>
+            <part node="0>3|2|3" startTime="7" endTime="7.5" startTrans="1.437 2.597 0.23" endTrans="1.437 2.597 -0.661"/>
+            <part node="0>3|2|3" startTime="7.5" endTime="7.7" startTrans="1.437 2.597 -0.661" endTrans="1.295 2.597 -0.661"/>
+            <part node="0>3|2|3" startTime="7.7" endTime="8" startTrans="1.295 2.597 -0.661" endTrans="1.295 2.42 -0.661"/>
+			
+            <part node="0>3|2|4" startTime="8" endTime="8.5" startTrans="0.208 0.3250 .23" endTrans="3.0 0.325 0.23"/>
+            <part node="0>3|2|4" startTime="8.5" endTime="9" startTrans="3.0 0.325 0.23" endTrans="1.437 2.597 0.23"/>
+            <part node="0>3|2|4" startTime="8.5" endTime="9" startRot="0 0 -90" endRot="0 0 0"/>
+            <part node="0>3|2|4" startTime="9" endTime="9.5" startTrans="1.437 2.597 0.23" endTrans="1.437 2.597 -3.311"/>
+            <part node="0>3|2|4" startTime="9.5" endTime="9.7" startTrans="1.437 2.597 -3.311" endTrans="1.295 2.597 -3.311"/>
+            <part node="0>3|2|4" startTime="9.7" endTime="10" startTrans="1.295 2.597 -3.311" endTrans="1.295 2.42 -3.311"/>
+			
+            <part node="0>3|2|5" startTime="10" endTime="10.5" startTrans="0.208 0.296 0.23" endTrans="3.0 0.296 0.23"/>
+            <part node="0>3|2|5" startTime="10.5" endTime="11" startTrans="3.0 0.296 0.23" endTrans="1.437 2.597 0.23"/>
+            <part node="0>3|2|5" startTime="10.5" endTime="11" startRot="0 0 -90" endRot="0 0 0"/>
+            <part node="0>3|2|5" startTime="11" endTime="11.5" startTrans="1.437 2.597 0.23" endTrans="1.437 2.597 -5.961"/>
+            <part node="0>3|2|5" startTime="11.5" endTime="11.7" startTrans="1.437 2.597 -5.961" endTrans="1.295 2.597 -5.961"/>
+            <part node="0>3|2|5" startTime="11.7" endTime="12" startTrans="1.295 2.597 -5.961" endTrans="1.295 2.42 -5.961"/>
+						
+            <sound template="sheetImp01"            startTime="0" endTime="0.5"  volumeScale="1.7" pitchScale="0.4" linkNode="0>3|2|0"/>
+            <sound template="clackVar6"             startTime="1.7" endTime="2"  volumeScale="1.7" pitchScale="0.8" linkNode="0>3|2|0"/>
+			
+            <sound template="sheetImp01"            startTime="2" endTime="2.5"  volumeScale="1.7" pitchScale="0.4" linkNode="0>3|2|1"/>
+            <sound template="clackVar6"             startTime="3.7" endTime="4"  volumeScale="1.7" pitchScale="0.8" linkNode="0>3|2|1"/>
+			
+            <sound template="sheetImp01"            startTime="4" endTime="4.5"  volumeScale="1.7" pitchScale="0.4" linkNode="0>3|2|2"/>
+            <sound template="clackVar6"             startTime="5.7" endTime="6"  volumeScale="1.7" pitchScale="0.8" linkNode="0>3|2|2"/>
+			
+            <sound template="sheetImp01"            startTime="6" endTime="6.5"  volumeScale="1.7" pitchScale="0.4" linkNode="0>3|2|3"/>
+            <sound template="clackVar6"             startTime="7.7" endTime="8"  volumeScale="1.7" pitchScale="0.8" linkNode="0>3|2|3"/>
+			
+            <sound template="sheetImp01"            startTime="8" endTime="8.5"  volumeScale="1.7" pitchScale="0.4" linkNode="0>3|2|4"/>
+            <sound template="clackVar6"             startTime="9.7" endTime="10"  volumeScale="1.7" pitchScale="0.8" linkNode="0>3|2|4"/>
+			
+            <sound template="sheetImp01"            startTime="10" endTime="10.5"  volumeScale="1.7" pitchScale="0.4" linkNode="0>3|2|5"/>
+            <sound template="clackVar6"             startTime="11.7" endTime="12"  volumeScale="1.7" pitchScale="0.8" linkNode="0>3|2|5"/>
+        </animation>
+		<animation name="axisMovement2">
+            <part node="0>3|2|14" startTime="12" endTime="12.01" startScale="0 0 0" endScale="1 1 1"/>
+			
+            <part node="0>3|2|6" startTime="0" endTime="0.5" startTrans="-0.104 0.651 0.23" endTrans="-3.0 0.651 0.23"/>
+            <part node="0>3|2|6" startTime="0.5" endTime="1" startTrans="-3.0 0.651 0.23" endTrans="-1.437 2.765 0.23"/>
+            <part node="0>3|2|6" startTime="0.5" endTime="1" startRot="0 180 90" endRot="0 180 0"/>
+            <part node="0>3|2|6" startTime="1" endTime="1.5" startTrans="-1.437 2.765 0.23" endTrans="-1.437 2.765 4.716"/>
+            <part node="0>3|2|6" startTime="1.5" endTime="1.7" startTrans="-1.437 2.765 4.716" endTrans="-1.295 2.765 4.716"/>
+            <part node="0>3|2|6" startTime="1.7" endTime="2" startTrans="-1.295 2.765 4.716" endTrans="-1.295 2.542 4.716"/>
+			
+            <part node="0>3|2|7" startTime="2" endTime="2.5" startTrans="-0.208 0.622 0.23" endTrans="-3.0 0.622 0.23"/>
+            <part node="0>3|2|7" startTime="2.5" endTime="3" startTrans="-3.0 0.622 0.23" endTrans="-1.437 2.765 0.23"/>
+            <part node="0>3|2|7" startTime="2.5" endTime="3" startRot="0 180 90" endRot="0 180 0"/>
+            <part node="0>3|2|7" startTime="3" endTime="3.5" startTrans="-1.437 2.765 0.23" endTrans="-1.437 2.765 2.729"/>
+            <part node="0>3|2|7" startTime="3.5" endTime="3.7" startTrans="-1.437 2.765 2.729" endTrans="-1.295 2.765 2.729"/>
+            <part node="0>3|2|7" startTime="3.7" endTime="4" startTrans="-1.295 2.765 2.729" endTrans="-1.295 2.646 2.729"/>
+			
+            <part node="0>3|2|8" startTime="4" endTime="4.5" startTrans="-0.208 0.593 0.23" endTrans="-3.0 0.593 0.23"/>
+            <part node="0>3|2|8" startTime="4.5" endTime="5" startTrans="-3.0 0.593 0.23" endTrans="-1.437 2.597 0.23"/>
+            <part node="0>3|2|8" startTime="4.5" endTime="5" startRot="0 180 90" endRot="0 180 0"/>
+            <part node="0>3|2|8" startTime="5" endTime="5.5" startTrans="-1.437 2.597 0.23" endTrans="-1.437 2.597 1.358"/>
+            <part node="0>3|2|8" startTime="5.5" endTime="5.7" startTrans="-1.437 2.597 1.358" endTrans="-1.295 2.597 1.358"/>
+            <part node="0>3|2|8" startTime="5.7" endTime="6" startTrans="-1.295 2.597 1.358" endTrans="-1.295 2.482 1.358"/>
+			
+            <part node="0>3|2|9" startTime="6" endTime="6.5" startTrans="-0.208 0.564 0.23" endTrans="-3.0 0.564 0.23"/>
+            <part node="0>3|2|9" startTime="6.5" endTime="7" startTrans="-3.0 0.564 0.23" endTrans="-1.437 2.597 0.23"/>
+            <part node="0>3|2|9" startTime="6.5" endTime="7" startRot="0 180 90" endRot="0 180 0"/>
+            <part node="0>3|2|9" startTime="7" endTime="7.5" startTrans="-1.437 2.597 0.23" endTrans="-1.437 2.597 -0.661"/>
+            <part node="0>3|2|9" startTime="7.5" endTime="7.7" startTrans="-1.437 2.597 -0.661" endTrans="-1.295 2.597 -0.661"/>
+            <part node="0>3|2|9" startTime="7.7" endTime="8" startTrans="-1.295 2.597 -0.661" endTrans="-1.295 2.42 -0.661"/>
+			
+            <part node="0>3|2|10" startTime="8" endTime="8.5" startTrans="-0.208 0.535 0.23" endTrans="-3.0 0.535 0.23"/>
+            <part node="0>3|2|10" startTime="8.5" endTime="9" startTrans="-3.0 0.535 0.23" endTrans="-1.437 2.597 0.23"/>
+            <part node="0>3|2|10" startTime="8.5" endTime="9" startRot="0 180 90" endRot="0 180 0"/>
+            <part node="0>3|2|10" startTime="9" endTime="9.5" startTrans="-1.437 2.597 0.23" endTrans="-1.437 2.597 -3.311"/>
+            <part node="0>3|2|10" startTime="9.5" endTime="9.7" startTrans="-1.437 2.597 -3.311" endTrans="-1.295 2.597 -3.311"/>
+            <part node="0>3|2|10" startTime="9.7" endTime="10" startTrans="-1.295 2.597 -3.311" endTrans="-1.295 2.42 -3.311"/>
+			
+            <part node="0>3|2|11" startTime="10" endTime="10.5" startTrans="-0.208 0.506 0.23" endTrans="-3.0 0.506 0.23"/>
+            <part node="0>3|2|11" startTime="10.5" endTime="11" startTrans="-3.0 0.506 0.23" endTrans="-1.437 2.597 0.23"/>
+            <part node="0>3|2|11" startTime="10.5" endTime="11" startRot="0 180 90" endRot="0 180 0"/>
+            <part node="0>3|2|11" startTime="11" endTime="11.5" startTrans="-1.437 2.597 0.23" endTrans="-1.437 2.597 -5.961"/>
+            <part node="0>3|2|11" startTime="11.5" endTime="11.7" startTrans="-1.437 2.597 -5.961" endTrans="-1.295 2.597 -5.961"/>
+            <part node="0>3|2|11" startTime="11.7" endTime="12" startTrans="-1.295 2.597 -5.961" endTrans="-1.295 2.42 -5.961"/>
+						
+            <sound template="sheetImp01"            startTime="0" endTime="0.5"  volumeScale="1.7" pitchScale="0.4" linkNode="0>3|2|6"/>
+            <sound template="clackVar6"             startTime="1.7" endTime="2"  volumeScale="1.7" pitchScale="0.8" linkNode="0>3|2|6"/>
+			
+            <sound template="sheetImp01"            startTime="2" endTime="2.5"  volumeScale="1.7" pitchScale="0.4" linkNode="0>3|2|7"/>
+            <sound template="clackVar6"             startTime="3.7" endTime="4"  volumeScale="1.7" pitchScale="0.8" linkNode="0>3|2|7"/>
+			
+            <sound template="sheetImp01"            startTime="4" endTime="4.5"  volumeScale="1.7" pitchScale="0.4" linkNode="0>3|2|8"/>
+            <sound template="clackVar6"             startTime="5.7" endTime="6"  volumeScale="1.7" pitchScale="0.8" linkNode="0>3|2|8"/>
+			
+            <sound template="sheetImp01"            startTime="6" endTime="6.5"  volumeScale="1.7" pitchScale="0.4" linkNode="0>3|2|9"/>
+            <sound template="clackVar6"             startTime="7.7" endTime="8"  volumeScale="1.7" pitchScale="0.8" linkNode="0>3|2|9"/>
+			
+            <sound template="sheetImp01"            startTime="8" endTime="8.5"  volumeScale="1.7" pitchScale="0.4" linkNode="0>3|2|10"/>
+            <sound template="clackVar6"             startTime="9.7" endTime="10"  volumeScale="1.7" pitchScale="0.8" linkNode="0>3|2|10"/>
+			
+            <sound template="sheetImp01"            startTime="10" endTime="10.5"  volumeScale="1.7" pitchScale="0.4" linkNode="0>3|2|11"/>
+            <sound template="clackVar6"             startTime="11.7" endTime="12"  volumeScale="1.7" pitchScale="0.8" linkNode="0>3|2|11"/>
+        </animation>
+    </animations>
+	
+    <cylindered>
+        <movingTools>
+            <movingTool node="0>3|2|14" playSound="false" >
+                <controls axis="AXIS_FRONTLOADER_ARM" invertAxis="true" mouseSpeedFactor="0.7" iconName="WHEEL_BASE_TRANSLATE_X" />
+                <animation animName="axisMovement" animSpeed="0.1" />
+            </movingTool>
+            <movingTool node="0>3|2|13" playSound="false" >
+                <controls axis="AXIS_FRONTLOADER_TOOL" invertAxis="true" mouseSpeedFactor="0.7" iconName="WHEEL_BASE_TRANSLATE_X" />
+                <animation animName="axisMovement2" animSpeed="0.1" />
+            </movingTool>
+        </movingTools>
+    </cylindered>
+	
+    <tensionBelts>
+        <tensionBeltsConfigurations>
+            <tensionBeltsConfiguration vehicleType="PalletAutoLoaderTrailer">
+                <tensionBelts linkNode="0>5" jointNode="0>" width="0.05" maxEdgeLength="0.1" geometryBias="0.01" ratchetPosition="1" defaultOffset="-0.25" defaultOffsetSide="0.1" defaultHeight="3.75" interactionRadius="1.5" totalInteractionRadius="6.5" activationTrigger="0>5|13">
+                    <tensionBelt startNode="0>5|0" endNode="0>5|0|0" offsetLeft="0.95">
+						<intersectionNode node="0>5|0|1"/>
+						<intersectionNode node="0>5|0|2"/>
+					</tensionBelt>
+                    <tensionBelt startNode="0>5|1" endNode="0>5|1|0">
+						<intersectionNode node="0>5|1|1"/>
+						<intersectionNode node="0>5|1|2"/>
+					</tensionBelt>
+                    <tensionBelt startNode="0>5|2" endNode="0>5|2|0">
+						<intersectionNode node="0>5|2|1"/>
+						<intersectionNode node="0>5|2|2"/>
+					</tensionBelt>
+                    <tensionBelt startNode="0>5|3" endNode="0>5|3|0">
+						<intersectionNode node="0>5|3|1"/>
+						<intersectionNode node="0>5|3|2"/>
+					</tensionBelt>
+                    <tensionBelt startNode="0>5|4" endNode="0>5|4|0">
+						<intersectionNode node="0>5|4|1"/>
+						<intersectionNode node="0>5|4|2"/>
+					</tensionBelt>
+                    <tensionBelt startNode="0>5|5" endNode="0>5|5|0">
+						<intersectionNode node="0>5|5|1"/>
+						<intersectionNode node="0>5|5|2"/>
+					</tensionBelt>
+                    <tensionBelt startNode="0>5|6" endNode="0>5|6|0">
+						<intersectionNode node="0>5|6|1"/>
+						<intersectionNode node="0>5|6|2"/>
+					</tensionBelt>
+                    <tensionBelt startNode="0>5|7" endNode="0>5|7|0">
+						<intersectionNode node="0>5|7|1"/>
+						<intersectionNode node="0>5|7|2"/>
+					</tensionBelt>
+                    <tensionBelt startNode="0>5|8" endNode="0>5|8|0">
+						<intersectionNode node="0>5|8|1"/>
+						<intersectionNode node="0>5|8|2"/>
+					</tensionBelt>
+                    <tensionBelt startNode="0>5|9" endNode="0>5|9|0">
+						<intersectionNode node="0>5|9|1"/>
+						<intersectionNode node="0>5|9|2"/>
+					</tensionBelt>
+                    <tensionBelt startNode="0>5|10" endNode="0>5|10|0">
+						<intersectionNode node="0>5|10|1"/>
+						<intersectionNode node="0>5|10|2"/>
+					</tensionBelt>
+                    <tensionBelt startNode="0>5|11" endNode="0>5|11|0">
+						<intersectionNode node="0>5|11|1"/>
+						<intersectionNode node="0>5|11|2"/>
+					</tensionBelt>
+                    <tensionBelt startNode="0>5|12" endNode="0>5|12|0" offsetRight="0.8">
+						<intersectionNode node="0>5|12|1"/>
+						<intersectionNode node="0>5|12|2"/>
+					</tensionBelt>
+                </tensionBelts>
+            </tensionBeltsConfiguration>
+        </tensionBeltsConfigurations>
+    </tensionBelts>
+	  
+	<design3Configurations title="$l10n_configuration_sdet">	
+		<design3Configuration name="No" price="1500">
+			<objectChange node="0>1|1|1|0" visibilityActive="false" visibilityInactive="true"/>
+        </design3Configuration>	
+ 		<design3Configuration name="Yes" price="1500">
+			<objectChange node="0>1|1|1|0" visibilityActive="true" visibilityInactive="false"/>
+        </design3Configuration> 
+	</design3Configurations>
+	
+    <designConfigurations title="$l10n_configuration_gates">
+        <designConfiguration name="No Gates" price="0">
+            <objectChange node="0>3|0|2" visibilityActive="true" visibilityInactive="false"/>
+        </designConfiguration>
+        <designConfiguration name="Front Gate" price="1000">
+            <objectChange node="0>3|0|0" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|0|1" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|0|2" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|0|0|0" compoundChildActive="true" compoundChildInactive="false"/>
+        </designConfiguration>
+        <designConfiguration name="Front and Rear Gate" price="2000">
+            <objectChange node="0>3|0|0" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|0|1" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|0|2" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|0|0|0" compoundChildActive="true" compoundChildInactive="false"/>
+			
+            <objectChange node="0>3|1|0" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|1|1" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|1|0|0" compoundChildActive="true" compoundChildInactive="false"/>
+        </designConfiguration>
+        <designConfiguration name="Side Gates" price="12000">
+            <objectChange node="0>3|0|0" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|1|0|0" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="0>3|1|0" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|0|0|0" compoundChildActive="true" compoundChildInactive="false"/>
+			
+            <objectChange node="0>3|2|0" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|2|1" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|2|2" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|2|3" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|2|4" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|2|5" visibilityActive="true" visibilityInactive="false"/>
+			
+            <objectChange node="0>3|2|6" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|2|7" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|2|8" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|2|9" visibilityActive="true" visibilityInactive="false"/>				
+            <objectChange node="0>3|2|10" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|2|11" visibilityActive="true" visibilityInactive="false"/>
+			
+            <objectChange node="0>3|2|12" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|2|13" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|2|14" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="0>3|2|15" visibilityActive="true" visibilityInactive="false"/>
+			
+				
+            <objectChange node="0>3|2|0|0" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="0>3|2|1|0" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="0>3|2|2|0" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="0>3|2|3|0" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="0>3|2|4|0" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="0>3|2|5|0" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="0>3|2|6|0" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="0>3|2|7|0" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="0>3|2|8|0" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="0>3|2|9|0" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="0>3|2|10|0" compoundChildActive="true" compoundChildInactive="false"/>
+            <objectChange node="0>3|2|11|0" compoundChildActive="true" compoundChildInactive="false"/>
+        </designConfiguration>
+    </designConfigurations>
+	
+	<design4Configurations title="$l10n_configuration_sign">	
+		<design4Configuration name="No" price="0">
+        </design4Configuration>	
+ 		<design4Configuration name="Road Train" price="1500">
+			<objectChange node="0>3|3|0" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="0>3|3|2" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="0>3|3|3" visibilityActive="true" visibilityInactive="false"/>
+        </design4Configuration> 	
+ 		<design4Configuration name="Long Vehicle" price="1500">
+			<objectChange node="0>3|3|1" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="0>3|3|2" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="0>3|3|3" visibilityActive="true" visibilityInactive="false"/>
+        </design4Configuration> 
+	</design4Configurations>
+	
+    <baseMaterial>
+        <material name="Frame" baseNode="0>1|1|0">
+            <shaderParameter name="colorMat0" value="SHARED_GREY2"/>
+        </material>
+        <material name="Frame1" baseNode="0>1|1|0">
+            <shaderParameter name="colorMat4" value="SHARED_GREY2"/>
+        </material>
+        <material name="Tray" baseNode="0>3|0|0">
+            <shaderParameter name="colorMat0" value="SHARED_GREY2"/>
+        </material>
+        <material name="Spiders" baseNode="0>0|6|0|1">
+            <shaderParameter name="colorMat1" value="SHARED_GREY2"/>
+        </material>
+        <material name="King" baseNode="0>1|4">
+            <shaderParameter name="colorMat0" value="SHARED_GREY2"/>
+        </material>
+        <material name="Detail" baseNode="0>1|1|1|0">
+            <shaderParameter name="colorMat0" value="SHARED_GREY2"/>
+        </material>
+        <material name="Detail1" baseNode="0>3|0|2|0">
+            <shaderParameter name="colorMat1" value="SHARED_GREY2"/>
+        </material>
+        <material name="Gaurd" baseNode="0>1|2">
+            <shaderParameter name="colorMat2" value="SHARED_GREY2"/>
+        </material>
+    </baseMaterial>
+	
+    <baseMaterialConfigurations price="4000" title="$l10n_configuration_fColour" useDefaultColors="true" defaultColorIndex="0">
+        <material name="Frame" shaderParameter="colorMat0"/>
+        <material name="Gaurd" shaderParameter="colorMat2"/>
+		
+		<baseMaterialConfiguration name="DennisK Black" 		color="0 0 0"/>
+		<baseMaterialConfiguration name="DennisK Dark Blue" 	color="0.005 0.001 0.533"/>
+		<baseMaterialConfiguration name="DennisK Light Blue" 	color="0.000 0.776 1.000"/>
+		<baseMaterialConfiguration name="Black Matt" 			color="0.015 0.015 0.015" material="23"/>
+    </baseMaterialConfigurations>
+	
+    <designMaterialConfigurations price="100" title="$l10n_configuration_tColour" useDefaultColors="true" defaultColorIndex="0">
+        <material name="Tray" shaderParameter="colorMat0"/>
+        <material name="Frame1" shaderParameter="colorMat4"/>
+		
+		<designMaterialConfiguration name="DennisK Dark Blue" 		color="0.005 0.001 0.533"/>
+		<designMaterialConfiguration name="DennisK Black" 			color="0 0 0"/>
+		<designMaterialConfiguration name="DennisK Light Blue" 		color="0.000 0.776 1.000"/>
+		<designMaterialConfiguration name="Black Matt" 				color="0.015 0.015 0.015" material="23"/>
+    </designMaterialConfigurations>
+
+	<designMaterial2Configurations title="$l10n_configuration_cdet" useDefaultColors="true" defaultColorIndex="0">
+        <material name="Detail" shaderParameter="colorMat0"/>	
+        <material name="Detail1" shaderParameter="colorMat1"/>
+		
+		<designMaterial2Configuration name="DennisK Light Blue" 	color="0.000 0.776 1.000"/>
+		<designMaterial2Configuration name="DennisK Black" 			color="0 0 0"/>
+		<designMaterial2Configuration name="DennisK Dark Blue" 		color="0.005 0.001 0.533"/>
+		<designMaterial2Configuration name="Black Matt" 			color="0.015 0.015 0.015" material="23"/>
+	</designMaterial2Configurations>
+	
+	<designMaterial3Configurations title="$l10n_configuration_sColour" useDefaultColors="true" defaultColorIndex="0">
+        <material name="Spiders" shaderParameter="colorMat1"/>
+		
+		<designMaterial3Configuration name="DennisK Dark Blue" 		color="0.005 0.001 0.533"/>
+		<designMaterial3Configuration name="Black Matt" 			color="0.015 0.015 0.015" material="23"/>
+		<designMaterial3Configuration name="DennisK Black" 			color="0 0 0"/>
+		<designMaterial3Configuration name="DennisK Light Blue" 	color="0.000 0.776 1.000"/>
+	</designMaterial3Configurations>
+
+    <ai>
+        <allowTurnBackward value="false"/>
+        <agentAttachment jointNode="0>2|0" rotCenterWheelIndices="1 2 3 4 5 6" width="3.0" height="4.5" length="13.5" lengthOffset="5.3"/>
+    </ai>
+	
+    <foliageBending>
+        <bendingNode minX="-1.3" maxX="1.3" minZ="-5.8" maxZ="6.3" yOffset="0.6" />
+    </foliageBending>
+	
+	<aPalletAutoLoader>
+		<aPalletAutoLoaderConfigurations>
+		
+			<aPalletAutoLoaderConfiguration name="$l10n_configuration_autoLoad_dis">
+			</aPalletAutoLoaderConfiguration>
+		
+		
+			<aPalletAutoLoaderConfiguration name="$l10n_configuration_PalletAutoload_Trailer" maxObjects="60" useBales="true" useTensionBelts="true" supportedObject="data/objects/pallets" UnloadRightOffset="-3 -1 0" UnloadLeftOffset="3 -1 0">
+				<trigger node="0>7|1"/>
+				<pickupTriggers>
+					<pickupTrigger node="0>7|0"/>
+					<pickupTrigger node="0>7|2"/>
+				</pickupTriggers>
+                <loadArea baseNode="0>1|1|2" leftRightCornerOffset="1.225 1.443 5.87" lenght="12.83" width="2.45" height="3.65"/>
+                <autoLoadObjectSettings>
+                    <autoLoadObjectSetting name="squarebale120" maxObjects="90"/>
+                </autoLoadObjectSettings>
+			</aPalletAutoLoaderConfiguration>
+            
+			<!-- <aPalletAutoLoaderConfiguration maxObjects="45" useBales="true" useTensionBelts="true" supportedObject="data/objects/pallets" UnloadRightOffset="-3 -1 0" UnloadLeftOffset="3 -1 0">
+				<trigger node="0>7|1"/>
+				<pickupTriggers>
+					<pickupTrigger node="0>7|0"/>
+					<pickupTrigger node="0>7|2"/>
+				</pickupTriggers>
+                <loadArea baseNode="0>1|1|2" leftRightCornerOffset="1.225 1.443 5.87" lenght="12.83" width="2.45" height="2.65"/>
+                <autoLoadObjectSettings>
+                    <autoLoadObjectSetting name="euroPallet" maxObjects="10"/>
+                    <autoLoadObjectSetting name="liquidTank" maxObjects="3"/>
+                    <autoLoadObjectSetting name="bigBagPallet" maxObjects="6"/>
+                    <autoLoadObjectSetting name="bigBag" maxObjects="10"/>
+                    <autoLoadObjectSetting name="euroPalletOversize" maxObjects="7"/>
+                    <autoLoadObjectSetting name="cottonRoundbale238" maxObjects="2"/>
+                    <autoLoadObjectSetting name="roundbale125" maxObjects="12"/>
+                    <autoLoadObjectSetting name="roundbale150" maxObjects="6"/>
+                    <autoLoadObjectSetting name="roundbale180" maxObjects="4"/>
+                    <autoLoadObjectSetting name="squarebale120" maxObjects="45"/>
+                    <autoLoadObjectSetting name="squarebale180" maxObjects="8"/>
+                    <autoLoadObjectSetting name="squarebale220" maxObjects="8"/>
+                    <autoLoadObjectSetting name="squarebale240" maxObjects="4"/>
+                </autoLoadObjectSettings>
+			</aPalletAutoLoaderConfiguration> -->
+			
+		</aPalletAutoLoaderConfigurations>
+        
+	</aPalletAutoLoader>
+
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
+</vehicle>

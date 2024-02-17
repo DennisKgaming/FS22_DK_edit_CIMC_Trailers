@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="67">
+    <author>JFL Modding</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>CIMC Flat top Trailer Pack DK edit</en>
+        <de>CIMC Flache Oberseite Anhänger Paket DK edit</de>
+    </title>
+    <description>
+        <en>
+			<![CDATA[CIMC Flattop Trailer Pack with lots of updates made by DennisK]]>
+        </en>
+        <de>
+			<![CDATA[CIMC Flache Oberseite Anhänger Paket]]>
+        </de>
+
+    </description>
+	
+    <iconFilename>icons/icon.dds</iconFilename>
+	
+    <multiplayer supported="true" />
+	
+	
+    <vehicleTypes>
+        <type name="PalletAutoLoaderTrailer" parent="trailer" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="FS22_aPalletAutoLoader.aPalletAutoLoader"/>
+        </type>
+    </vehicleTypes> 
+	
+	<l10n>
+		<text name="configuration_gates"> 
+			<en>Gates and Ramps</en>
+		</text>
+		<text name="configuration_gaurd"> 
+			<en>Gaurds</en>
+		</text>
+		<text name="configuration_valueSpiders"> 
+			<en>Spider Rims</en>
+		</text>
+		<text name="configuration_fColour"> 
+			<en>Frame Colour</en>
+		</text>
+		<text name="configuration_tColour"> 
+			<en>Tray Colour</en>
+		</text>
+		<text name="configuration_sdet"> 
+			<en>Side Detail</en>
+		</text>
+		<text name="configuration_cdet"> 
+			<en>Side Detail Colour</en>
+		</text>
+		<text name="configuration_sColour"> 
+			<en>Spider Colour</en>
+		</text>
+		<text name="configuration_sign"> 
+			<en>Rear Sign</en>
+		</text>
+        <text name="function_PalletAutoload_Trailer"> 
+            <en>Trailer with Autoload for pallets</en> 
+            <de>Anhänger mit Autoload für Paletten</de> 
+            <ru>Прицеп с автопогрузкой поддонов</ru>
+            <it>Rimorchio con caricamento automatico per pallet</it>
+        </text>
+        <text name="configuration_palletLoadingWagonNormal"> 
+            <en>Autoload for pallets normal</en> 
+            <de>Autoload für Paletten normal</de> 
+            <ru>С автопогрузкой поддонов нормальный</ru>
+            <it>Caricamento automatico per pallet normale</it>
+        </text>
+        <text name="configuration_palletLoadingWagonMax"> 
+            <en>Autoload for pallets extreme</en> 
+            <de>Autoload für Paletten extrem</de> 
+            <ru>С автопогрузкой поддонов экстремальный</ru>
+            <it>Caricamento automatico per pallet estremo</it>
+        </text>
+        <text name="configuration_PalletAutoload_Trailer"> 
+            <en>Pallet Autoload</en>
+            <de>Paletten Autoloader</de>
+            <ru>Автопогрузка поддонов</ru>
+            <it>Caricatore automatico di pallet</it>
+        </text>
+        <text name="configuration_autoLoad_dis"> 
+            <en>Pallet Autoload disabled</en>
+        </text>
+	</l10n>		
+	
+	<brands>
+        <brand name="CIMC" title="CIMC" image="icons/brand_CIMC.dds"/>
+    </brands>
+    <storeItems>
+        <storeItem rootNode="vehicle" xmlFilename="xml/DropExt.xml"/>
+        <storeItem rootNode="vehicle" xmlFilename="xml/dropdeck.xml"/>
+        <storeItem rootNode="vehicle" xmlFilename="xml/Btrailer.xml"/>
+        <storeItem rootNode="vehicle" xmlFilename="xml/Atrailer.xml"/>
+    </storeItems>
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua"/>
+    </extraSourceFiles>
+	
+	<newcategory name="DennisKtools" title="DennisK" type="TOOL" img="Categories/CategoryTools.png" />
+	
+</modDesc>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="Juniohim" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+    </Asset>
+    <Files>
+        <File fileId="3" filename="Hub.dds"/>
+        <File fileId="2" filename="default_normal.dds"/>
+        <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+    </Files>
+    <Materials>
+        <Material name="Hub" materialId="81" diffuseColor="0.8 0.8 0.8 1" customShaderId="4" customShaderVariation="colorMask">
+            <Normalmap fileId="2"/>
+            <Glossmap fileId="3"/>
+            <CustomParameter name="RDT" value="1 1 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+            <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+            <CustomParameter name="colorMat1" value="1 1 1 8"/>
+            <CustomParameter name="colorMat2" value="1 1 1 1"/>
+            <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+            <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+            <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+            <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+            <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="test.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="Hub" static="true" nodeId="87" materialIds="81" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="2" name="Cap" nodeId="88" materialIds="81" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="1" name="Hub" rotation="0 -0 180" static="true" nodeId="89" materialIds="81" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="2" name="Cap" nodeId="90" materialIds="81" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+    </Scene>
+</i3D>
